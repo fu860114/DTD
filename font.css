@@ -1,0 +1,48 @@
+.fcs{
+    font-size: 15px;
+    font-family:arial,"Microsoft JhengHei","微軟正黑體",sans-serif ;
+}
+.fcsw{
+    font-size: 15px;
+    font-family:arial,"Microsoft JhengHei","微軟正黑體",sans-serif ;
+    font-weight: 700;
+}
+.fcm{
+    font-size: 20px;
+    font-family:arial,"Microsoft JhengHei","微軟正黑體",sans-serif ;
+}
+.fcmw{
+    font-size: 20px;
+    font-family:arial,"Microsoft JhengHei","微軟正黑體",sans-serif ;
+    font-weight: 700;
+}
+.fcl{
+    font-size: 28px;
+    font-family:arial,"Microsoft JhengHei","微軟正黑體",sans-serif ;
+}
+.fes{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Vollkorn', serif;
+}
+.fem{
+    font-size: 34px;
+    font-weight: 500;
+    font-family: 'Vollkorn', serif;
+}
+.fexxs{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Vollkorn', serif;
+}
+.fexs{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Vollkorn', serif;
+}
+
+.fel{
+    font-size: 100px;
+    font-weight: 500;
+    font-family: 'Vollkorn', serif;
+}

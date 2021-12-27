@@ -1,0 +1,601 @@
+.body{
+    background: url(./dtdshoes/pexels-karolina-grabowska-4705933.jpg);
+}
+/* ----delete------ */
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ----delete------ */
+
+/* --------------hero-section------------------ */
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 100px;
+    background-image: url(./dtdshoes/pexels-cottonbro-6069960.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    position: relative;
+    /* what the fuck was that not working */
+    /* outline: 1px solid black; */
+}
+.hero-right-bar{
+    /* display: flex;
+    align-items:baseline; */
+    
+}
+.hero-right-bar p{
+    color: white;
+    margin: 0;
+    transform: rotate(90deg);
+    margin-bottom: 15px; /* scroll line Y-position */
+}
+.hero-right-bar-line{
+    width: 19px;   /* scroll line X-position */
+    height: 30vh;  /* scroll line height */
+    border-right: 1px solid white; 
+}
+hero-section img{
+    width: 100%;
+    object-fit: cover;
+}
+.hero-section-title h1, .hero-section-title p, .memberText h1, .memberText p{
+    color: white;
+    margin-bottom: 20px;
+}
+.member-sheet{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    z-index: 3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%);
+    background-color: rgba(0, 0, 0, 0.705);
+}
+.memberText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-100%);
+    background-color: rgba(0, 0, 0, 0.329);
+}
+.switch-login-regis, .forget, .social-icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.dtdlogin, .dtdregist, .forgetPsw, .forgetAcc{
+    color: white;
+    background-color: transparent;
+    padding: 0 20px;
+    border:1px solid transparent;
+}
+.forgetPsw, .forgetAcc{
+    padding: 0 10px;
+}
+.dtdloginrightline{
+    height: 30px;
+    width: 1px;
+    margin-top: 6px;
+    background-color: white;
+}
+.forgetPswrightline{
+    height: 20px;
+    width: 1px;
+    margin-top: 3px;
+    background-color: white
+}
+.addbutLine{
+    border-bottom: 3px solid white !important;
+}
+.switch-login-regis-sheet{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.enteremail, .enterpsw, .loginbtn, .regentername, .regenteremail, .regenterpwd, .regreenterpwd{
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    border:1px solid white;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: white;
+}
+.regentername, .regenteremail, .regenterpwd, .regreenterpwd{
+    height: 40px;
+}
+.loginbtn{
+    background-color: #706358;
+    border:1px solid transparent;
+}
+.forgetPswText{
+    margin-bottom: 0 !important;
+    color: white;
+}
+::-webkit-input-placeholder{
+    color: white;
+    text-align: center;
+}
+.tranXin{
+    transition: 2s;
+    transform: translateY(0) !important;
+}
+.delay-y{
+    transition-delay: 2s;
+}
+.retext{
+    color: white;
+    margin: 0 !important;
+}
+.regbtn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.regconfirm, .regcancel{
+    background-color: #706358;
+    border:1px solid transparent;
+    opacity: 0.4;
+    width: 48%;
+    height: 50px;
+    border-radius: 50px;
+}
+.regcancel{
+    opacity: 0.4;
+}
+.regconfirm{
+    opacity: 0.8;
+}
+.regconfirm:hover, .regcancel:hover{
+    opacity: 1;
+}
+.displayNone{
+    display: none;
+}
+.regor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.regor p{
+    color: white;
+    margin-bottom: 3px;
+}
+.regorLine{
+    width: 30%;
+    height: 1px;
+    margin: 0 15px;
+    background-color: white;
+}
+.sociaicon{
+    display: flex;
+    justify-content: center;
+}
+.sociaicon i{
+    color: white;
+    /* font-size: 60px; */
+    margin:0 10px;
+}
+.fa-google-plus-g{
+    font-size: 45px;
+}
+.fa-facebook-f{
+    font-size: 35px;
+}
+.threeLineBtn{
+    position: fixed;
+    top:0;
+    right: 0;
+    z-index: 4;
+    width: 200px;
+    height: 100%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(200px);
+    background-color: rgba(0, 0, 0, 0.329);
+}
+.threeLineBtn p{
+    color: white;
+}
+/* --------------hero-section------------------ */
+/* --------------new-arrival------------------ */
+.new-section{
+    margin: auto;
+    margin-bottom: 70px;
+    /* outline: 1px solid black; */
+}
+.new-top{
+    display: flex;
+    margin-bottom: 50px;
+}
+.new-top-img{
+    width: 330px;
+    height: 330px;
+    overflow: hidden;
+    /* outline: 1px solid red; */
+}
+.new-top-img img{
+    width: 100%;
+}
+.new-top-text{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* outline: 1px solid red; */
+}
+.new-top-mrb{
+    margin-bottom: 20px;
+}
+.tx-center{
+    text-align: center;
+}
+.mg-atuo{
+    margin: auto;
+    /* outline: 1px solid red; */
+}
+.new-buttom{
+    display: flex;
+    justify-content: space-between;
+}
+.new-button-sn-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.new-buttom-card{
+    padding: 0;
+    width: 300px;
+}
+.new-buttom-card-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.new-buttom-card-img{
+    /* width: 365px; */
+    height: 350px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.new-buttom-card-img img{
+    width: 100%;
+}
+.new-section-phone{
+    width: 80%;
+    height: 300px;
+} 
+.new-arrival-phone-name{
+    text-align: center;
+}
+.new-arrival-phone-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/*--------------new-section------------------ */
+/*--------------bestseller------------------ */
+.bestseller{
+    width: 100%;
+    position: relative;
+    margin-bottom: 80px;
+}
+.bestsellerbg{
+    width: 90%;
+    margin-left: auto;
+    background-color: #d8d4cb62;
+    height: 100vh;
+}   
+.bestsellerimg{
+    width: 650px;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 6;
+    top:50%;
+    transform: translateY(-50%);
+}
+.bestsellerimg-2{
+    width: 550px;
+    height: 350px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.bestsellerimg img, .bestsellerimg-2 img{
+    width: 100%;
+}
+.bestseller-text-div{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.bestseller-text-div-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bestseller-mrb-just{
+    margin-bottom: 10px;
+}
+.bestseller-text-div-2 .bestseller-text{
+    margin-bottom: 20px;
+}
+.bestseller-mrb-just{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.bestseller-text{
+    width: 350px;
+    margin-bottom: 60px;
+}
+.bestseller-mrb{
+    margin-bottom: 30px;
+}
+
+/*--------------bestseller------------------ */
+/*--------------brand------------------ */
+.brand{
+    margin: auto;
+    display: flex;
+    margin-bottom: 60px;
+    /* outline: 1px solid red; */
+}
+.brand-text,.brand-img{
+    width: 50%;
+}
+.brand-text{
+    padding-right: 30px;
+}
+.brand-text-mrb{
+    margin-bottom: 50px;
+}
+.brand-img{
+    padding-left: 30px;
+}
+.brand-img-logo{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    margin: 10px;
+    width: 130px;
+    height: 130px;
+    outline: 1px solid black;
+}
+
+/*--------------brand------------------ */
+
+@media screen and (min-width:1001px){
+    .brand-text-2{
+        display: none;
+    }
+    .bestsellerimg-2{
+        display: none;
+    }
+    .bestseller-text-div-2{
+        display: none;
+    }
+} 
+@media screen and (max-width:1350px){
+    .bestsellerimg{
+        width: 480px;
+        height: 400px;
+        overflow: hidden;
+        position: absolute;
+        z-index: 6;
+        top:50%;
+        /* transform: translateY(-50%); */
+    }
+
+}
+@media screen and (max-width:1000px){
+    .brand-text{
+        display: none;
+    }
+    .brand-img{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .brand-text-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        margin: auto;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    .brand-text-mrb{
+        margin-bottom: 5px;
+    }
+   /* --------brand--------- */
+    .bestsellerbg{
+        width: 100%;
+        padding-top: 100px;
+    }
+    .bestseller-text-div{
+        display: none;
+    }
+    .bestsellerimg{
+        display: none;
+    }
+    .brand{
+        margin-bottom: 10px !important;
+    }
+    .bestseller,.hero-sectio{
+        margin-bottom: 60px;   
+    }
+    /* --------new-arrival--------- */
+    .new-buttom-card-img{
+        width: 170px;
+        height: 260px;
+        margin: 0 20px;
+    }
+}  
+@media screen and (max-width:775px){
+    .new-top-img{
+        width: 280px;
+        height: 280px;
+    } 
+    .new-buttom-card-img{
+        width: 150px;
+        width: 150px;
+    }
+    .new-buttom-card{
+        width: 150px;
+        height: 200px;
+        outline: 1px solid red;
+    }
+    .new-arrival-phone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:775px){
+    .new-section-laptop{
+        display: none;
+    }
+    .new-section{
+        margin-bottom: 120px;
+    }
+    /* --------newarrival--------- */
+}
+@media screen and (min-width:775px){
+    .new-arrival-phone{
+        display: none;
+    }
+    /* --------newarrival--------- */
+}
+
+@media screen and (max-width:750px){
+    .bestsellerimg-2{
+        width: 300px;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+    .hero-right-bar, .memberText{
+        display: none;
+    }
+}
+@media screen and (max-width:600px){
+    .logo-phone-none{
+        display: none;
+    }
+    .logo-phone{
+        width: 205px;
+        height: 205px;
+    }
+    /* --------newarrival--------- */
+    
+    .new-section-phone{
+        margin: auto;
+    }
+    
+    /* --------hero-section--------- */
+    .hero-section{
+        margin-bottom: 50px;
+    }
+    .hero-section-title{
+        margin: auto;
+        margin-bottom:50px ;
+    }
+    .hero-section-title h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .hero-section-title p{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+@media screen and (min-width:500px){
+    .bestseller-phpne-title{
+        display: none;
+    }
+    .bestseller-card-phone{
+        display: none;
+    }
+}
+@media screen and (max-width:500px){
+    .bestseller-text-div-2, .bestsellerimg-2{
+        display: none;
+    }
+    .bestsellerbg{
+        padding-top: 40px;
+    }
+    .bestsellerbg{
+        height: 1200px;
+    }
+    .bestseller-phpne-title{
+        text-align: center;
+    }
+    .bestseller-card-phone{
+        margin-bottom: 20px;
+    }
+    .bestseller-card-phone-img{
+        width: 200px;
+        height: 300px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .bestseller-card-phone-img img{
+        width: 100%;
+    }
+    .bestseller-card-phone p{
+        text-align: center;
+    }
+    .brand-img-logo{
+        width: 350px;
+        height: 350px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo{
+        margin: 9px;
+        width: 156px;
+        height: 156px;
+        outline: 1px solid black;
+    }
+
+}
+@media screen and (max-width:400px){
+    .brand-img-logo{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo{
+        margin: 5px;
+        width: 90px;
+        height: 90px;
+        outline: 1px solid black;
+    }
+}
